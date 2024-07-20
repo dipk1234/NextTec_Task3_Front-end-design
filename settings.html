@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - E-learning Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">E-Learn</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><input type="text" placeholder="Search..."></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="settings">
+            <h2>Settings</h2>
+            <div class="settings-section">
+                <h3>Account Settings</h3>
+                <label for="change-password">Change Password:</label>
+                <input type="password" id="change-password">
+                <label for="email-preferences">Email Preferences:</label>
+                <input type="checkbox" id="email-preferences"> Receive Email Notifications
+                <button>Save Settings</button>
+            </div>
+            <div class="settings-section">
+                <h3>Notification Settings</h3>
+                <label for="notifications">Enable Notifications:</label>
+                <input type="checkbox" id="notifications">
+                <button>Save Settings</button>
+            </div>
+            <div class="settings-section">
+                <h3>Privacy Settings</h3>
+                <label for="privacy">Make Profile Private:</label>
+                <input type="checkbox" id="privacy">
+                <button>Save Settings</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a></div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="newsletter">
+            <input type="email" placeholder="Subscribe to our newsletter">
+            <button>Subscribe</button>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
